@@ -1,0 +1,58 @@
+#family-header{
+  height: 10vh;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#family-header h2{
+  font-size: 40px;
+}
+
+.identity-wrapper{
+  height: 250px;
+  width: 260px;
+  border: 1px solid #000;
+  margin: 20px;
+}
+
+.input-wrapper{
+  height: 39px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper span{
+  margin: 10px;
+}
+
+.input-wrapper input{
+  width: 180px;
+}
+
+table.identity{
+  border-collapse: collapse;
+  height: 32px;
+  width: 100%;
+}
+
+tr{
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+td.name{
+  margin-left: 10px;
+  width: 180px;
+}
+
+b{
+  font-weight: 400;
+}
+
+.even{
+  background-color: #EFF0F1;
+}

@@ -1,0 +1,16 @@
+<div>
+    <div id="family-header">
+        <h2> My Family </h2>
+    </div>
+    <div class="identity-wrapper">
+        <div class="input-wrapper">
+          <span>Search</span>
+            <input ng-model="person" placeholder="Search...." />
+        </div>
+        <table class="identity">
+            <tr ng-repeat="person in familyMember | filter: person" ng-class-even="'even'">
+                <td class="name"> <b>Name:</b> &nbsp; {{person.name}} </td>
+                <td> <b>Age:</b> &nbsp; {{person.age}} </td>
+            </tr>
+    </div>
+</div>
